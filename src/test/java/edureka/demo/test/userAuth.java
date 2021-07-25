@@ -16,6 +16,7 @@ public static void main(String[] args) {
 		driver.findElement(By.name("click")).click();
 		String x = driver.getCurrentUrl();
 		System.out.println(x);
+		System.out.println("Rahul");
 	}
 
 }
